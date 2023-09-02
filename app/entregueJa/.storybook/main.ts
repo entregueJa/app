@@ -17,7 +17,7 @@ const config: StorybookConfig = {
   },
   viteFinal: (config, {configType} ) => {
     if (configType =='PRODUCTION') {
-      config.base = '/entregueJa/app'
+      config.base = '/app/'
     }
     return config
   }
