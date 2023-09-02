@@ -15,11 +15,11 @@ const config: StorybookConfig = {
   docs: {
     autodocs: "tag",
   },
-  viteFinal: (config, {configType} ) => {
-    if (configType =='PRODUCTION') {
-      config.base = '/app/'
+  viteFinal: (config, { configType }) => {
+    if (configType === "PRODUCTION") {
+      config.base = "/app/";
     }
-    return config
-  }
+    return config;
+  },
 };
 export default config;
